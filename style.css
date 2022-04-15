@@ -1,0 +1,302 @@
+/* navegação */
+
+body{
+    color: #464646;
+    background-color: #FEFEFE;
+    font-family: 'Raleway', sans-serif;
+}
+.topo, .informacao, .imagem-skill, .imagem-exp-pro{
+    margin: 5vh 10vw;
+}
+
+
+.topo{
+    display: flex;
+}
+
+.titulo{
+    flex-grow: 1;
+    font-weight: bold;
+    margin: 20px 0 0 5px;
+}
+
+.topo_icones_lista{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.icones_lista{
+    margin: 20px 0 20px 0;
+    
+}
+
+.icones_lista a{
+    text-decoration: none;   
+}
+
+.icones_lista a:hover{
+    color: #353535;
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+
+/* informação */
+        /* apresentacao */
+.apresentacao{
+    display: flex;
+}
+.apresentacao_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cabecalho{
+    font-size: 52px;
+    margin-bottom: 3vh;
+    width: 40vw;
+}
+
+.subcabecalho{
+    font-size: 22px;
+    margin-bottom: 3vh;
+    width: 40vw;
+}
+
+.foto{
+    border-radius: 50%;
+    margin-left: 3vw;
+    width: 30vw;
+}
+        /* links sociais */
+
+.links_container{
+    display: flex;
+    justify-content: start;
+}
+
+.links-sociais_itens{
+    font-size: large;
+    font-weight: normal;
+    margin-right: 2vw;
+}
+
+.links-sociais_itens:hover{
+    color: #353535;
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: .5s all;
+}
+
+/* sobre mim */
+.sobremim{
+    background:#EAF2FD;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 6vh 10vw;
+}
+.sobremim h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 5vh 0 0vh 0;
+}
+
+.sobremim p{
+    font-size: 18px;
+    margin:2vh 0 2vh 0;
+    width: 50%;
+}
+
+.assinatura{
+    align-self: flex-start;
+    width: 100px;
+}
+
+/* skills */
+
+.skills{
+    display: block;
+    text-align: center;
+}
+
+.skills, .hobbie, .formacao, .exp-pro{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.skill-icones{
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill-icones li{
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 175px;
+    width: 175px;
+}
+
+.skill-icones li .img{
+    height: auto;
+    width: 50px;
+}
+
+/* hobbie */
+
+.hobbie{
+    display: block;
+    text-align: center;
+}
+
+.hobbie__icones{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+}
+
+.hobbie__icones li{
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 175px;
+    width: 175px;
+}
+
+.hobbie__icones li .img{
+    height: auto;
+    width: 50px;
+}
+
+/* formacao */
+
+.imagem-formacao{
+    background-color:  #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10vh 10vw;
+}
+
+.formacao__icones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formacao__icones li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.formacao__icones li .curso{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 8px 0; 
+}
+
+.formacao__icones li .local{
+    margin: 8px 0;
+}
+
+
+.formacao__icones li .img{
+    background: #FEFEFE;
+    flex-grow: 1;
+    height: auto;
+    padding: 5vw;
+    width: 15vw;
+}
+
+/* experiência profissional */
+
+/* form contato */
+.contato{
+    background:#EAF2FD ;
+    display: flex;
+    padding: 15vh 10vw;
+}
+
+.telefone{
+    width: 750px;
+}
+
+.contato__form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    flex-grow: 1;
+}
+
+.contato__form p{
+    margin:10px 0;
+}
+
+.contato__titulo{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+.contato__formulario{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.form__itens__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.item_form{
+    background-color: #FFFFFF;
+    height: 7vh;
+    border-style: none;
+}
+.item_form--label{
+    background-color: #FFFFFF;
+    height: 7vh;
+    border-style: none;
+    
+    display: flex;
+    align-items: center;  
+}
+
+.item_form__assuntos{
+    height: 14vh;
+}
+
+.item_form--textarea{
+    height: 300px;
+}
+
+.enviar{
+    width: 165px;
+    height: 51px;
+    margin-top: 2vh;
+    text-align: center;
+    border-style:none ;
+    background-color: #2A7AE4;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* crédito */
+
+.credito{
+    text-align: center;
+    font-weight: 500;
+}
